@@ -1,0 +1,5 @@
+export { default as ThemeToggle } from './ThemeToggle'
+export { default as StarBackground } from './StarBackground'
+export { default as NavBar } from './NavBar'
+export { default as HeroSection } from './HeroSection'
+export { default as AboutMe } from './AboutMe'
