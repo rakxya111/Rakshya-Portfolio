@@ -2,17 +2,15 @@ import { useEffect, useState } from "react";
 import { cn } from "../../lib/utils";
 import { Menu, X } from "lucide-react";
 
-  const navItems = [
-    { name: "Home", href: "#hero" },
-    { name: "About", href: "#about" },
-    { name: "Skills", href: "#skills" },
-    { name: "Projects", href: "#projects" },
-    { name: "Contact", href: "#contact" },
-  ];
-
+const navItems = [
+  { name: "Home", href: "#hero" },
+  { name: "About", href: "#about" },
+  { name: "Skills", href: "#skills" },
+  { name: "Projects", href: "#projects" },
+  { name: "Contact", href: "#contact" },
+];
 
 function NavBar() {
-
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -24,7 +22,7 @@ function NavBar() {
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
-  
+
   return (
     <nav
       className={cn(
@@ -37,9 +35,9 @@ function NavBar() {
           className="text-xl font-bold text-primary flex items-center"
           href="#hero"
         >
-          <span className="relative z-10">
-            <span className="text-glow text-foreground"> Roxks </span>
-            Portfolio
+          <span className="relative z-10 font-pacifico italic">
+            <span className="text-glow text-foreground ">Roxks </span>
+             Portfolio
           </span>
         </a>
 
@@ -91,6 +89,6 @@ function NavBar() {
       </div>
     </nav>
   );
-};
+}
 
 export default NavBar;
