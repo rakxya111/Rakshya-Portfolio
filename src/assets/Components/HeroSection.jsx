@@ -1,4 +1,4 @@
-import { ArrowDown } from "lucide-react";
+import { ArrowDown, Github, Instagram, Linkedin, Twitter } from "lucide-react";
 
 function HeroSection() {
   return (
@@ -31,6 +31,39 @@ function HeroSection() {
               View My Work
             </a>
           </div>
+<div className="pt-8">
+  <div className="flex space-x-6 justify-center">
+    <a
+      href="http://www.linkedin.com/in/rakshya-bhuju13"
+      target="_blank"
+      className="p-3 rounded-full transition transform hover:scale-125 hover:shadow-[0_0_15px_rgba(147,197,253,0.8)] hover:text-pink-400"
+    >
+      <Linkedin size={28} />
+    </a>
+    <a
+      href="https://github.com/rakxya111"
+      target="_blank"
+      className="p-3 rounded-full transition transform hover:scale-125 hover:shadow-[0_0_15px_rgba(147,197,253,0.8)] hover:text-blue-400"
+    >
+      <Github size={28} />
+    </a>
+    <a
+      href="https://www.instagram.com/rakxya_roxks/"
+      target="_blank"
+      className="p-3 rounded-full transition transform hover:scale-125 hover:shadow-[0_0_15px_rgba(251,146,60,0.8)] hover:text-orange-400"
+    >
+      <Instagram size={28} />
+    </a>
+    <a
+      href="https://x.com/Rakxya_Roxks"
+      target="_blank"
+      className="p-3 rounded-full transition transform hover:scale-125 hover:shadow-[0_0_15px_rgba(96,165,250,0.8)] hover:text-sky-400"
+    >
+      <Twitter size={28} />
+    </a>
+  </div>
+</div>
+
         </div>
 
         <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex flex-col items-center animate-bounce">

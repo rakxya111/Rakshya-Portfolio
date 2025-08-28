@@ -1,5 +1,8 @@
 import { AboutMe, HeroSection, NavBar, StarBackground, ThemeToggle } from "../Components"
+import ContactSection from "../Components/ContactSection"
+import ProjectsSection from "../Components/ProjectsSection"
 import SkillsSection from "../Components/SkillsSection"
+import Footer from "./Footer"
 
 
 function Home() {
@@ -23,9 +26,13 @@ function Home() {
           <HeroSection />
           <AboutMe />
           <SkillsSection />
+          <ProjectsSection />
+          <ContactSection />
         </main>
 
         {/* Footer */}
+
+        <Footer />
       
     </div>
   )
