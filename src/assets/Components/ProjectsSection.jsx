@@ -8,7 +8,7 @@ const projects = [
       "A cosmetics e-commerce website built with Django, HTML, CSS, and JavaScript, featuring product listings, a shopping cart, and smooth online transactions.",
     image: "/projects/NERB.png",
     tags: ["Html", "Css","Javascript","Python & Django"],
-    demoUrl: "#",
+    demoUrl: "https://youtu.be/RSm4ogMhgz4",
     githubUrl: "https://github.com/rakxya111/NERB-Beauty-Ecommerce",
   },
   {
@@ -18,7 +18,7 @@ const projects = [
       "career recommendation app , offering quiz-based career suggestions, blogs, a chatbot, and an interactive UI powered by Django and Scikit-learn.",
     image: "/projects/MARG.png",
     tags: ["Python", "Scikit Learn", "Django", "Javascript"],
-    demoUrl: "#",
+    demoUrl: "https://youtu.be/INNTwLooVPE",
     githubUrl: "https://github.com/rakxya111/marg-career-recommender-ai-v1",
   },
   {
@@ -28,7 +28,7 @@ const projects = [
       "A social media app with user profiles, posts, likes, and comments, featuring a clean UI and interactive experience built with React and Django.",
     image: "/projects/MITRAM.png",
     tags: ["Django Rest Framework", "React", "TypeScript", "JWT"],
-    demoUrl: "#",
+    demoUrl: "https://youtu.be/SHvZ9y6XHSw",
     githubUrl: "https://github.com/rakxya111/mitram-social-media-platform-V1",
   },
 ];
