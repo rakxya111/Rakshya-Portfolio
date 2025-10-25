@@ -15,10 +15,10 @@ const projects = [
     id: 2,
     title: "Marg Career Recommendation System",
     description:
-      "career recommendation app , offering quiz-based career suggestions, blogs, a chatbot, and an interactive UI powered by Django and Scikit-learn.",
+      "A career recommendation app , offering quiz-based career suggestions, blogs, a chatbot, and an interactive UI powered by Django and Scikit-learn.",
     image: "/projects/MARG.png",
     tags: ["Python", "Scikit Learn", "Django", "Javascript"],
-    demoUrl: "https://youtu.be/INNTwLooVPE",
+    demoUrl: "https://youtu.be/HniHWqE4Y50",
     githubUrl: "https://github.com/rakxya111/marg-career-recommender-ai-v1",
   },
   {
@@ -31,12 +31,13 @@ const projects = [
     demoUrl: "https://youtu.be/SHvZ9y6XHSw",
     githubUrl: "https://github.com/rakxya111/mitram-social-media-platform-V1",
   },
+
 ];
 
 function ProjectsSection() {
   return (
     <section id="projects" className="py-24 px-4 relative">
-      <div className="container mx-auto max-w-5xl">
+      <div className="mx-auto max-w-5xl">
         <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">
           Featured <span className="text-primary">Projects</span>
         </h2>
@@ -46,11 +47,11 @@ function ProjectsSection() {
           crafted with attention to detail, performance, and user experience.
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
             {projects.map((project,key) => (
                 <div key={key} className="group bg-card rounded-lg overflow-hidden shadow-xs card-hover ">
-                    <div className="h-40 overflow-hidden">
-                        <img src={project.image} alt={project.title} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
+                    <div className="h-45 overflow-hidden">
+                        <a href={project.demoUrl} target="_blank"><img src={project.image} alt={project.title} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" /></a>
                     </div>
 
                     <div className="p-6">
@@ -63,8 +64,8 @@ function ProjectsSection() {
 
            
 
-                        <h3 className="text-xl font-semibol mb-1">{project.title}</h3>
-                        <p className="text-muted foreground text-sm mb-4">{project.description}</p>
+                        <h3 className="text-xl font-semibold mb-1 text-justify">{project.title}</h3>
+                        <p className="text-muted foreground text-sm mb-4 text-justify">{project.description}</p>
                         <div className="flex justify-between items-center">
                             <div className="flex space-x-3">
                                 <a href={project.demoUrl} 

@@ -1,8 +1,6 @@
-import { AboutMe, HeroSection, NavBar, StarBackground, ThemeToggle } from "../Components"
-import ContactSection from "../Components/ContactSection"
-import ProjectsSection from "../Components/ProjectsSection"
-import SkillsSection from "../Components/SkillsSection"
+import { AboutMe, ContactSection, HeroSection, NavBar, ProjectsSection, SkillsSection, StarBackground, ThemeToggle } from "../Components"
 import Footer from "./Footer"
+
 
 
 function Home() {
